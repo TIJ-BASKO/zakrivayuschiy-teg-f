@@ -273,7 +273,7 @@ main {
   max-width: 21px;
   height: auto;
   mix-blend-mode: difference;
-  color: #fff;
+  fill: var(--accent-color);
 
 
 }
@@ -306,6 +306,8 @@ dialog::backdrop {
   width: 39px;
   height: 39px;
   flex: none;
+  fill: var(--accent-color);
+
 
 }
 
