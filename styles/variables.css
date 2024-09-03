@@ -1,0 +1,16 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --button-fill-color: var(--main-color);
+  --main-color: #fff;
+  --accent-color: #000;
+  --label-stroke-color:var(--main-color);
+  --background-gradient:
+  repeating-linear-gradient(
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  ),
+  repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --decorative-font: "PressStart2P", fantasy;
+  --like-color: #FF0000;
+}
