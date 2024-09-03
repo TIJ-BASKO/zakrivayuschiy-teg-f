@@ -272,6 +272,8 @@ main {
 .floppy__button__svg {
   max-width: 21px;
   height: auto;
+  mix-blend-mode: difference;
+
 
 }
 
@@ -342,7 +344,8 @@ form .button {
   transform-origin: left;
   transform: scaleX(0%);
   transition: transform 0.5s ease-in-out;
-  
+  mix-blend-mode: difference;
+
 }
 
 @media (hover: hover) {
