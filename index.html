@@ -570,7 +570,14 @@
                 onclick="window['save-dialog'].showModal()"
                 aria-controls="save-dialog"
                 class="bordered-button button floppy__button">
-          <svg fill="white" viewBox="0 0 21 21">
+          <svg 
+          xmlns="http://www.w3.org/2000/svg"
+          class="floppy__button__svg"
+          viewBox="0 0 21 21"
+          width="21"
+          height="21"
+          >
+          
             <use href="svg/floppy.svg#floppy"/>
           </svg>
           <span class="button__text">Сохранить на&nbsp;память</span>
@@ -578,7 +585,13 @@
       </div>
       <dialog class="dialog" id="save-dialog">
         <div class="dialog-content">
-          <svg class="dialog-svg" viewBox="0 0 40 40" fill="white">
+          <svg 
+          xmlns="http://www.w3.org/2000/svg"
+          class="dialog-svg" 
+          viewBox="0 0 39 39" 
+          width="39"
+          height="39"
+          >
             <use href="svg/floppy.svg#big-floppy"/>
           </svg>
           <div>

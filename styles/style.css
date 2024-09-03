@@ -269,9 +269,9 @@ main {
   gap: 12px;
 }
 
-.floppy__button svg {
-  width: 21px;
-  height: 21px;
+.floppy__button__svg {
+  max-width: 21px;
+  height: auto;
 
 }
 
