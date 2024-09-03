@@ -264,16 +264,14 @@ main {
 
 .floppy__button {
   margin: auto;
-  padding: 18px 21px;
+  padding: 15px 20px;
   line-height: 12px;
-  gap: 8px;
+  gap: 12px;
 }
 
 .floppy__button svg {
-  block-size: 21px;
-  inline-size: 21px;
-  mix-blend-mode: difference;
-  
+  width: 21px;
+  height: 21px;
 
 }
 
@@ -294,18 +292,17 @@ dialog::backdrop {
   opacity: 0.75;
 }
 
-.dialog__container {
+.dialog-content {
   display: flex;
   flex-direction: row;
-  gap: 20px;
   align-items: center;
+  gap: 20px;
 }
 
-.dialog__floppy {
-  block-size: 39px;
-  inline-size: 39px;
-  mix-blend-mode: difference;
-  flex: none;
+.dialog-svg {
+  width: 100px;
+  height: 40px;
+  fill: var(--accent-color);
 }
 
 .dialog-title {
@@ -319,7 +316,6 @@ form .button {
   height: 38px;
   width: 100%;
 }
-
 .bordered-button {
   position: relative;
   display: flex;

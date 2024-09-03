@@ -566,29 +566,25 @@
       </article>
 
       <div class="save__button">
-        <button
-          type="button"
-          onclick="window['dialog'].showModal()"
-          aria-controls="dialog"
-          class="bordered-button button floppy__button"
-        >
-          <svg viewBox="0 0 21 21">
-            <use href="./svg/floppy.svg#floppy" />
+        <button type="button"
+                onclick="window['save-dialog'].showModal()"
+                aria-controls="save-dialog"
+                class="bordered-button button floppy__button">
+          <svg fill="white" viewBox="0 0 21 21">
+            <use href="svg/floppy.svg#floppy"/>
           </svg>
           <span class="button__text">Сохранить на&nbsp;память</span>
         </button>
       </div>
-
-      <dialog id="dialog" class="dialog">
-        <div class="dialog__floppy">
-          <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
-          <use href="./svg/floppy.svg#floppy"></use>
+      <dialog class="dialog" id="save-dialog">
+        <div class="dialog-content">
+          <svg class="dialog-svg" viewBox="0 0 40 40" fill="white">
+            <use href="svg/floppy.svg#big-floppy"/>
           </svg>
           <div>
             <h2 class="dialog-title">Вставьте дискету, чтобы продолжить</h2>
           </div>
         </div>
-
         <form method="dialog">
           <button class="bordered-button button">OK</button>
         </form>
