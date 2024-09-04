@@ -30,7 +30,7 @@
   align-items: center;
   margin: auto;
   font-variation-settings: 'wght' var(--decorative-font);
-  font-family: var(--font-main, sans-serif);
+  font-family: var(--font-main);
 }
 
 .header {
@@ -367,7 +367,7 @@ form .button {
 @media (width <= 400px) {
   
   .header__title {
-    padding-top: 11px;
+    padding-top: 119px;
   }
 
 
