@@ -30,6 +30,7 @@
   align-items: center;
   margin: auto;
   font-variation-settings: 'wght' var(--decorative-font);
+  font-family: var(--font-main, sans-serif);
 }
 
 .header {
